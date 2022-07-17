@@ -22,4 +22,6 @@ Error measures correspond to the sum of the squares of the vertical distance bet
 
 If we have a good model, we also must have a small error measure given by the test set. In this case, once we increase the dimension, the error related to the training set decreases, however, the error related to the test set gets worse. This is known as _overfitting_.
 
+The following figure is given by the script _RMS\_comparing.m_.
+
 ![error versus dimensionality](error_vs_dim.png "error versus dimensionality")
