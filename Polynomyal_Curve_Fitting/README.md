@@ -13,4 +13,4 @@
 
  Here we have a fit for $D = 3$. This graph is given by the script _polynomial\_fit\_plot.m_ (where you can choose the dimension value).
 
-![fit curve with D=3](/fit_curve.png "-")
+![fit curve with D=3](fit_curve.png "Fit curve with D=3")
