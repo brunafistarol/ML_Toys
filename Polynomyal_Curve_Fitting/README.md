@@ -1,5 +1,5 @@
 # Polynomial Curve Fitting
- This is a simple regression problem, very useful to understand key concepts of machine learning
+ This is a simple regression problem, very useful to understand key concepts of machine learning.
  
  
  The data for this example is generated from the script _creating.data.m_, which is using the sin function with a random noise and creating 20 samples uniformly spaced in range [0, 1].
