@@ -11,7 +11,7 @@ plot(x, y, 'bo')
 hold on
 plot(x_aux, fit', 'r')
 plot(x_aux, original, 'g')
-legend("Training/testing set", "Model", "Original sinusoidal function")
+legend("Dataset", "Model", "Original sinusoidal function")
 xlabel('x')
 ylabel('y')
 title('Polynomial curve fitting')
