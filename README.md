@@ -1,2 +1,2 @@
 # ML_Toys
- Some Machine Learning toys made in MATLAB
+ This repository contains some Machine Learning toys made in MATLAB
