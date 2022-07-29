@@ -1,5 +1,5 @@
 # Polynomial Curve Fitting
- This is a simple regression problem, very useful to understand key concepts of machine learning
+ This is a simple regression problem, very useful to understand key concepts of machine learning.
  
  
  The data for this example is generated from the script _creating.data.m_, which is using the sin function with a random noise and creating 20 samples uniformly spaced in range [0, 1].
@@ -21,5 +21,7 @@
 Error measures correspond to the sum of the squares of the vertical distance between the predicted curve and the sample used to train the model. The goal training the model is to minimize some error measure.
 
 If we have a good model, we also must have a small error measure given by the test set. In this case, once we increase the dimension, the error related to the training set decreases, however, the error related to the test set gets worse. This is known as _overfitting_.
+
+The following figure is given by the script _RMS\_comparing.m_.
 
 ![error versus dimensionality](error_vs_dim.png "error versus dimensionality")
