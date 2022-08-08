@@ -4,7 +4,7 @@ Suppose you have N i.i.d. observations of a variable x with dimension D, each on
 
 The Gaussian distribution defined over a $D$-dimensional vector $x$ of continuous variables is given by
 
-$$\mathcal{N}(x|\mu, \Sigma) = \dfrac{1}{(2\pi)^{\frac{D}{2}}}\dfrac{1}{|\Sigma|^{\frac{1}{2}}}exp\Bigl\{ -\dfrac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu) \Bigr\}$$
+$$\mathcal{N}(x|\mu, \Sigma) = \frac{1}{(2\pi)^{\frac{D}{2}}}\dfrac{1}{|\Sigma|^{\frac{1}{2}}}exp\{ -\dfrac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu)\}$$
 
 where the $D$-dimensional vector $\mu$ is called the mean, the $D × D$ matrix $\Sigma$ is called
 the covariance, and $|\Sigma|$ denotes the determinant of $\Sigma$.
